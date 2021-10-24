@@ -1,0 +1,61 @@
+.header {
+  text-align: center;
+}
+
+body {
+  background-color: #ddd;
+}
+
+.menu {
+  background-color:black;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.side {
+  background-color: black;
+  color: white;
+  width: 100px;
+  /* height: 300px; */
+  text-align: center;
+  margin-left: 10px;
+  flex-grow: 1;
+}
+
+.side a:visited {
+  color: deeppink
+}
+
+.content {
+  background-color: black;
+  color: white;
+  width: 100px;
+  /* height: 300px; */
+  text-align: center;
+  flex-grow: 3;
+}
+
+.content a:visited {
+  color: deeppink;
+}
+
+ul {
+  text-align: left;
+}
+
+article {
+  display: flex;
+  padding-top: 30px;
+}
+
+.container {
+  text-align: center;  
+}
+
+footer {
+  margin-top: 30px;
+  line-height: 80px;
+  text-align: center;
+}
